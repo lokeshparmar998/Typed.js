@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Hacker detected</title>
+    <link rel="stylesheet" href="./index.css">
+  </head>
+  <body>
+    <div class="canvas">
+      <h1 class="blinking">System warning!!</h1>
+      <h3>Remote virtual console activated</h3>
+      <div class="console">
+        <div class="console-header">
+          <p>Hacker@terminal Ubuntu-machine </p>
+        </div>
+        <div class="header-body">
+            <p>Root command shifted to the remote machine for futher commands.
+               press esc to exite.</p>
+            <span class="hack">hacker@terminal:~$</span> <span class="type"></span> <br>
+            <span class="burst"></span>
+            <span class="loading"></span>
+            <span class="prank"></span>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="typed.js" charset="utf-8"></script>
+    <script type="text/javascript">
+    var typed = new Typed(".type", {
+      strings: ["Hello there", "we are anonymous", "we got access to this computer"],
+      smartBackspace: true ,
+      typeSpeed: 100,
+      loop: true
+    });
+    </script>
+  </body>
+</html>
